@@ -31,6 +31,8 @@ jobs:
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
+      - name: install dart sass
+        run: sudo snap install dart-sass --edge
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
