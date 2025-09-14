@@ -1,0 +1,27 @@
+
+
+.image-grid-list-s1 {
+  display: flex;
+  flex-wrap: wrap;
+  .s1-grid-item {
+    width: 30%;
+    margin: 1rem;
+  }
+  .s1-img-desc {
+    text-align: center;
+  }
+}
+
+
+.home-about-page {
+  h2, h6 {
+    text-align: center;
+  }
+  h6 {
+    font-size: 1.7rem;
+    font-weight: normal;
+    a {
+      padding: 0 1rem;
+    }
+  }
+}

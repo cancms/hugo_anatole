@@ -1,9 +1,16 @@
 
-title = "I'm Jane Doe"
-author = "Jane Doe"
+title = "Xinlei Deng"
+author = "Xinlei Deng"
 #copyright = "2020-2021"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+
+description = """
+Data Scientist | Biostatistician
+Software Engineer | Epidemiologist
+
+Email: xinlei.deng.apha@gmail.com
+"""
+
+profilePicture = "images/avatar.png"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -58,6 +65,20 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 
 ## Social links
 # use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
+
+[[socialIcons]]
+icon = "fab fa-researchgate"
+title = "Research Gate"
+url = "https://www.researchgate.net/profile/Xinlei-Deng"
+
+
+[[socialIcons]]
+icon = "ai ai-google-scholar"
+title = "Google Scholar"
+url = "https://scholar.google.com/citations?user=nLaS8WkAAAAJ&hl=en"
+
+
+
 [[socialIcons]]
 icon = "fa-brands fa-linkedin"
 title = "Linkedin"
