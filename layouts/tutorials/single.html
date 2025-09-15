@@ -9,22 +9,29 @@
       {{ end }}"
 >
 
+ <div class="pdf-container">
+  <iframe
+          src="{{ .Params.tutorial_file | relURL }}"
+          class="pdf-viewer"
+  >
+  </iframe>
+ </div>
+
+
+
+    {{/*
   {{ if eq .Params.tutorial_type "pdf" }}
 
-       {{ with .Resources.Get "tutorial.pdf" }}
            <div class="pdf-container">
             <iframe
-                    src="{{.RelPermalink}}"
+                    src="{{ .Params.tutorial_file | relURL }}"
                     class="pdf-viewer"
             >
             </iframe>
            </div>
 
-       {{ end  }}
 
-
-
-   {{ else }}  {{/* html type */}}
+   {{ else }}
 
 
         {{ $html_file := .Resources.Get "tutorial.html" }}
@@ -37,6 +44,8 @@
 
 
    {{ end }}
+    */}}
+
 
 </div>
 
