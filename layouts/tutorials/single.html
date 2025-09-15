@@ -27,9 +27,11 @@
    {{ else }}  {{/* html type */}}
 
 
+        {{ $html_file := .Resources.Get "tutorial.html" }}
+
         {{ with .Resources.Get "tutorial.html" }}
 
-         <div class="content">     {{ readFile .Path | safeHTML }}    </div>
+         <div class="content">     {{ readFile $html_file.Path | safeHTML }}    </div>
 
         {{ end  }}
 
