@@ -1,4 +1,17 @@
 
+.logo-img-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  padding: 1rem;
+  z-index: 200;
+  img {
+    width: 100%;
+  }
+
+}
+
 
 .image-grid-list-s1 {
   display: flex;
@@ -25,3 +38,5 @@
     }
   }
 }
+
+

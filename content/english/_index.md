@@ -20,7 +20,7 @@ certification_images:
 
 ---
 
-##  XINLEI DENG
+##  Jack DENG
 
 ###### M.B.B.S., Ph.D.
 ###### [Curriculum Vitae](/)    [Resume](/)

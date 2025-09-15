@@ -1,7 +1,7 @@
 baseURL = "https://cancms.github.io/hugo_anatole/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Xinlei Deng"
+title = "Jack"
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"
