@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+
+<div
+        class="tutorial-single-page post {{ with .Site.Params.doNotLoadAnimations }}
+        .
+      {{ else }}
+        animated fadeInDown
+      {{ end }}"
+>
+
+  {{ if eq .Params.tutorial_type "pdf" }}
+
+       {{ with .Resources.Get "tutorial.pdf" }}
+           <div class="pdf-container">
+            <iframe
+                    src="{{.RelPermalink}}"
+                    class="pdf-viewer"
+            >
+            </iframe>
+           </div>
+
+       {{ end  }}
+
+
+
+   {{ else }}  {{/* html type */}}
+
+
+        {{ with .Resources.Get "tutorial.html" }}
+
+         <div class="content">     {{ readFile .Path | safeHTML }}    </div>
+
+        {{ end  }}
+
+
+   {{ end }}
+
+</div>
+
+
+
+
+
+
+
+{{ end }}
