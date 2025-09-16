@@ -23,7 +23,7 @@ certification_images:
 ##  Jack DENG
 
 ###### M.B.B.S., Ph.D.
-###### [Curriculum Vitae](/)    [Resume](/)
+###### [Curriculum Vitae](files/2015dengue-cases.pdf)   [Resume](files/2010dengue-definition.pdf) 
 
 
 ### About Me
