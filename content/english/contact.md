@@ -4,6 +4,10 @@ title: Contact
 date: 2019-03-08
 description: Contact Page
 contact: true
+
+email: pyliu996@gmail.com
+address: 19 th Ave
+
 ---
 
 

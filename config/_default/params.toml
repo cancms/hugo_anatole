@@ -1,13 +1,13 @@
 
 title = "Jack Deng"
-author = "Jack Deng"
+#author = "Jack Deng"
 #copyright = "2020-2021"
 
 description = """
 Data Scientist | Biostatistician
 Software Engineer | Epidemiologist
 
-Email: xinlei.deng.apha@gmail.com
+Email: pyliu996@gmail.com
 """
 
 profilePicture = "images/avatar.png"
@@ -66,6 +66,14 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 ## Social links
 # use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
 
+
+
+[[socialIcons]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/konstantinos-kostas-sechidis-19311657/ "
+
+
 [[socialIcons]]
 icon = "fab fa-researchgate"
 title = "Research Gate"
@@ -75,29 +83,23 @@ url = "https://www.researchgate.net/profile/Xinlei-Deng"
 [[socialIcons]]
 icon = "ai ai-google-scholar"
 title = "Google Scholar"
-url = "https://scholar.google.com/citations?user=nLaS8WkAAAAJ&hl=en"
+url = "https://scholar.google.com/citations?user=DBKK9IsAAAAJ&hl=en"
 
-
-
-[[socialIcons]]
-icon = "fa-brands fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
 
 [[socialIcons]]
 icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/lxndrblz/anatole/"
 
-[[socialIcons]]
-icon = "fa-brands fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fa-solid fa-envelope"
-title = "e-mail"
-url = "mailto:mail@example.com"
+#[[socialIcons]]
+#icon = "fa-brands fa-instagram"
+#title = "instagram"
+#url = "https://www.instagram.com/"
+#
+#[[socialIcons]]
+#icon = "fa-solid fa-envelope"
+#title = "e-mail"
+#url = "mailto:mail@example.com"
 
 [mermaid]
 # enable = true
