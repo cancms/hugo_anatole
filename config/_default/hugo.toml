@@ -1,4 +1,5 @@
 baseURL = "https://cancms.github.io/hugo_anatole/"
+#baseURL = "https://cancms.github.io/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Jack"

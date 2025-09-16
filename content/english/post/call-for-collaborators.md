@@ -21,4 +21,4 @@ We are a startup team working on several iOS and android apps and looking for pa
 
 If you are interested, please contact us at your convinience. We are looking forward to hearing from you!
 
-![Call for partners](/images/posts/call-collaborator.jpg)
+{{< image src="images/posts/call-collaborator.jpg" >}}
